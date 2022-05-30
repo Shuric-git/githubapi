@@ -33,6 +33,7 @@ function createElement(tagName, className) {
       liItem.addEventListener('click',  () => {
         createFavorite(repoArr[i].name, repoArr[i].owner.login, repoArr[i].stargazers_count, repoArr[i].id);
         input.value = '';
+        autocompleteList.innerHTML = '';
       })
     }
   }

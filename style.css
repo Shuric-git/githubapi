@@ -22,7 +22,6 @@ li {
     padding: 13px;
 }
 .body__list-autocomplete {
-    margin-bottom: 45px;
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -37,6 +36,11 @@ li {
 }
 .body__list-autocomplete__item:hover {
     background-color: #65CDF9;
+}
+.body__repos {
+    position: absolute;
+    top: 18%;
+    z-index: -1;
 }
 .body__list-repos__item {
     width: 500px;
